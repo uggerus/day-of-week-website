@@ -69,35 +69,35 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 2: Call `generateDate()` in console and verify it returns a date string.
 
 ### Prompt Set 2.3: Display the fixed date in `date-display`
-- [ ] Objective: Display the date from `generateDate()` in the `date-display` div.
-- [ ] Instruction 1: In `script.js`, add `document.addEventListener('DOMContentLoaded', function() { ... });`.
-- [ ] Instruction 2: Inside listener, get `dateDisplayElement` using `document.getElementById('date-display')`.
-- [ ] Instruction 3: Call `generateDate()` and store result in `generatedDate`.
-- [ ] Instruction 4: Set `dateDisplayElement.textContent = generatedDate;`.
-- [ ] Testing 1: Open `index.html` in browser.
-- [ ] Testing 2: Verify today's date is displayed in the "Date Display" area.
-- [ ] Testing 3: Inspect `date-display` element and confirm `textContent` is set.
+- [x] Objective: Display the date from `generateDate()` in the `date-display` div.
+- [x] Instruction 1: In `script.js`, add `document.addEventListener('DOMContentLoaded', function() { ... });`.
+- [x] Instruction 2: Inside listener, get `dateDisplayElement` using `document.getElementById('date-display')`.
+- [x] Instruction 3: Call `generateDate()` and store result in `generatedDate`.
+- [x] Instruction 4: Set `dateDisplayElement.textContent = generatedDate;`.
+- [x] Testing 1: Open `index.html` in browser.
+- [x] Testing 2: Verify today's date is displayed in the "Date Display" area.
+- [x] Testing 3: Inspect `date-display` element and confirm `textContent` is set.
 
 ### Prompt Set 2.4: Implement Random Date Generation (Gregorian Calendar, Date Range)
-- [ ] Objective: Replace placeholder with random date generation (1582-3000, Gregorian).
-- [ ] Instruction 1: Modify `generateDate()` function.
-- [ ] Instruction 2: Set `startDate = new Date(1582, 9, 15)` and `endDate = new Date(3000, 11, 31)`.
-- [ ] Instruction 3: Get timestamps using `getTime()`.
-- [ ] Instruction 4: Generate random time within the range.
-- [ ] Instruction 5: Create `randomDate = new Date(randomTime)`.
-- [ ] Instruction 6: Return `randomDate.toLocaleDateString()` (or simple string).
-- [ ] Instruction 7: Add `try...catch` block, return `null` on error.
-- [ ] Testing 1: Reload `index.html` multiple times, verify different dates are displayed.
-- [ ] Testing 2: Manually check if generated dates are roughly within 1582-3000 range.
-- [ ] Testing 3: Test error handling by intentionally breaking date generation and check for no crashes in console.
+- [x] Objective: Replace placeholder with random date generation (1582-3000, Gregorian).
+- [x] Instruction 1: Modify `generateDate()` function.
+- [x] Instruction 2: Set `startDate = new Date(1582, 9, 15)` and `endDate = new Date(3000, 11, 31)`.
+- [x] Instruction 3: Get timestamps using `getTime()`.
+- [x] Instruction 4: Generate random time within the range.
+- [x] Instruction 5: Create `randomDate = new Date(randomTime)`.
+- [x] Instruction 6: Return `randomDate.toLocaleDateString()` (or simple string).
+- [x] Instruction 7: Add `try...catch` block, return `null` on error.
+- [x] Testing 1: Reload `index.html` multiple times, verify different dates are displayed.
+- [x] Testing 2: Manually check if generated dates are roughly within 1582-3000 range.
+- [x] Testing 3: Test error handling by intentionally breaking date generation and check for no crashes in console.
 
 ### Prompt Set 2.5: Implement Date Formatting
-- [ ] Objective: Format the random date to a user-friendly format (e.g., "Month Day, Year").
-- [ ] Instruction 1: Modify `generateDate()` to format `randomDate`.
-- [ ] Instruction 2: Use `toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })` or similar formatting method.
-- [ ] Instruction 3: Return the formatted date string.
-- [ ] Testing 1: Reload `index.html` and verify dates are in the chosen format (e.g., "October 26, 1985").
-- [ ] Testing 2: Check month and day names are correctly displayed.
+- [x] Objective: Format the random date to a user-friendly format (e.g., "Month Day, Year").
+- [x] Instruction 1: Modify `generateDate()` to format `randomDate`.
+- [x] Instruction 2: Use `toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })` or similar formatting method.
+- [x] Instruction 3: Return the formatted date string.
+- [x] Testing 1: Reload `index.html` and verify dates are in the chosen format (e.g., "October 26, 1985").
+- [x] Testing 2: Check month and day names are correctly displayed.
 
 ### Prompt Set 2.6: Implement Date Generation Error Handling and Display
 - [ ] Objective: Display error message "Unable to generate date" if `generateDate()` returns `null`.

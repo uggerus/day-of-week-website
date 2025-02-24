@@ -1,5 +1,3 @@
-
-
 function generateDate() {
     try {
         // Base date: October 15, 1582 (Start of Gregorian calendar)
@@ -17,8 +15,9 @@ function generateDate() {
         // Create new date by adding random time to start date
         const randomDate = new Date(startDate.getTime() + randomTime);
         
-        // Format the date as a locale string
-        return randomDate.toLocaleDateString();
+        // Format the date in a user-friendly format: "Month Day, Year"
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        return randomDate.toLocaleDateString(undefined, options);
     } catch (error) {
         console.error("Error generating random date:", error);
         return null;
@@ -35,6 +34,5 @@ document.addEventListener('DOMContentLoaded', function() {
         dateDisplayElement.textContent = "Error generating date";
     }
 });
-
 
 
