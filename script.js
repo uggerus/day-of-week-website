@@ -28,10 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const dateDisplayElement = document.getElementById('date-display');
     const generatedDate = generateDate();
     
-    if (generatedDate) {
-        dateDisplayElement.textContent = generatedDate;
+    if (generatedDate === null) {
+        dateDisplayElement.textContent = "Unable to generate date";
     } else {
-        dateDisplayElement.textContent = "Error generating date";
+        dateDisplayElement.textContent = generatedDate;
     }
 });
 

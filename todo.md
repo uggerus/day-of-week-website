@@ -100,14 +100,14 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 2: Check month and day names are correctly displayed.
 
 ### Prompt Set 2.6: Implement Date Generation Error Handling and Display
-- [ ] Objective: Display error message "Unable to generate date" if `generateDate()` returns `null`.
-- [ ] Instruction 1: Modify `DOMContentLoaded` listener in `script.js`.
-- [ ] Instruction 2: After calling `generateDate()`, check if `generatedDate === null`.
-- [ ] Instruction 3: If `null`, set `dateDisplayElement.textContent = "Unable to generate date";`.
-- [ ] Instruction 4: Else, set `dateDisplayElement.textContent = generatedDate;`.
-- [ ] Testing 1: Temporarily modify `generateDate()` to always return `null`.
-- [ ] Testing 2: Reload `index.html` and verify "Unable to generate date" is displayed.
-- [ ] Testing 3: Restore `generateDate()` to correct logic and reload, verify valid date is displayed.
+- [x] Objective: Display error message "Unable to generate date" if `generateDate()` returns `null`.
+- [x] Instruction 1: Modify `DOMContentLoaded` listener in `script.js`.
+- [x] Instruction 2: After calling `generateDate()`, check if `generatedDate === null`.
+- [x] Instruction 3: If `null`, set `dateDisplayElement.textContent = "Unable to generate date";`.
+- [x] Instruction 4: Else, set `dateDisplayElement.textContent = generatedDate;`.
+- [x] Testing 1: Temporarily modify `generateDate()` to always return `null`.
+- [x] Testing 2: Reload `index.html` and verify "Unable to generate date" is displayed.
+- [x] Testing 3: Restore `generateDate()` to correct logic and reload, verify valid date is displayed.
 
 ## Chunk 3: User Input and Feedback (Buttons)
 
