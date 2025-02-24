@@ -5,48 +5,48 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 ## Chunk 1: Basic Structure and Core Styling
 
 ### Prompt Set 1.1: Set up Project Files (HTML, CSS)
-- [ ] Objective: Create `index.html` and `style.css` files and set up the basic HTML structure.
-- [ ] Instruction 1: Create `index.html` file.
-- [ ] Instruction 2: Create `style.css` file.
-- [ ] Instruction 3: Set up basic HTML structure in `index.html` with `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
-- [ ] Instruction 4: Add `<meta>` tags for `charset` and `viewport` in `<head`.
-- [ ] Instruction 5: Add `<title>` tag in `<head>` with "Day of Week Game".
-- [ ] Instruction 6: Link `style.css` to `index.html` using `<link>` tag in `<head>`.
-- [ ] Testing 1: Open `index.html` in a browser; it should load without errors.
-- [ ] Testing 2: Verify `style.css` is linked by adding a temporary style and checking if it applies in the browser.
+- [x] Objective: Create `index.html` and `style.css` files and set up the basic HTML structure.
+- [x] Instruction 1: Create `index.html` file.
+- [x] Instruction 2: Create `style.css` file.
+- [x] Instruction 3: Set up basic HTML structure in `index.html` with `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
+- [x] Instruction 4: Add `<meta>` tags for `charset` and `viewport` in `<head`.
+- [x] Instruction 5: Add `<title>` tag in `<head>` with "Day of Week Game".
+- [x] Instruction 6: Link `style.css` to `index.html` using `<link>` tag in `<head>`.
+- [x] Testing 1: Open `index.html` in a browser; it should load without errors.
+- [x] Testing 2: Verify `style.css` is linked by adding a temporary style and checking if it applies in the browser.
 
 ### Prompt Set 1.2: Create Core Game Structure (Containers)
-- [ ] Objective: Define the main structural containers in `index.html`: `date-display`, `input-area`, `feedback-area`, and `statistics-area`, inside a main `game-container`.
-- [ ] Instruction 1: Add `<div id="game-container">` inside `<body>`.
-- [ ] Instruction 2: Inside `game-container`, add `<div id="date-display"></div>`.
-- [ ] Instruction 3: Inside `game-container`, add `<div id="input-area"></div>`.
-- [ ] Instruction 4: Inside `game-container`, add `<div id="feedback-area"></div>`.
-- [ ] Instruction 5: Inside `game-container`, add `<div id="statistics-area"></div>`.
-- [ ] Testing 1: Inspect `index.html` in browser's developer tools to verify the container structure is correctly created.
+- [x] Objective: Define the main structural containers in `index.html`: `date-display`, `input-area`, `feedback-area`, and `statistics-area`, inside a main `game-container`.
+- [x] Instruction 1: Add `<div id="game-container">` inside `<body>`.
+- [x] Instruction 2: Inside `game-container`, add `<div id="date-display"></div>`.
+- [x] Instruction 3: Inside `game-container`, add `<div id="input-area"></div>`.
+- [x] Instruction 4: Inside `game-container`, add `<div id="feedback-area"></div>`.
+- [x] Instruction 5: Inside `game-container`, add `<div id="statistics-area"></div>`.
+- [x] Testing 1: Inspect `index.html` in browser's developer tools to verify the container structure is correctly created.
 
 ### Prompt Set 1.3: Create Day of Week Buttons (HTML)
-- [ ] Objective: Create day of week buttons (Sunday to Saturday) inside `input-area` in `index.html`.
-- [ ] Instruction 1: Inside `<div id="input-area">`, add seven `<button>` elements.
-- [ ] Instruction 2: Give each button the class `day-button`.
-- [ ] Instruction 3: Set `textContent` for each button to day names: "Sunday", "Monday", ..., "Saturday".
-- [ ] Testing 1: Verify day buttons are visible in the "Input Area" in the browser.
-- [ ] Testing 2: Inspect HTML to confirm button structure and class names are correct.
+- [x] Objective: Create day of week buttons (Sunday to Saturday) inside `input-area` in `index.html`.
+- [x] Instruction 1: Inside `<div id="input-area">`, add seven `<button>` elements.
+- [x] Instruction 2: Give each button the class `day-button`.
+- [x] Instruction 3: Set `textContent` for each button to day names: "Sunday", "Monday", ..., "Saturday".
+- [x] Testing 1: Verify day buttons are visible in the "Input Area" in the browser.
+- [x] Testing 2: Inspect HTML to confirm button structure and class names are correct.
 
 ### Prompt Set 1.4: Basic CSS - Grayscale Theme and Layout Structure
-- [ ] Objective: Implement basic grayscale theme and layout structure using CSS in `style.css`.
-- [ ] Instruction 1: Set body background color to `#f0f0f0` and text color to `#333`.
-- [ ] Instruction 2: Set default font to sans-serif for `body`.
-- [ ] Instruction 3: Style `game-container` to center content horizontally using `margin: 0 auto;` and set `max-width: 800px;`.
-- [ ] Instruction 4: Set `display: flex;` and `flex-direction: column;` for `body`.
-- [ ] Instruction 5: Add basic margin to `date-display`, `input-area`, `feedback-area`, and `statistics-area` for vertical spacing (e.g., `margin: 20px 0;`).
-- [ ] Testing 1: Verify grayscale color theme is applied in the browser.
-- [ ] Testing 2: Check if content is centered and layout structure is visible.
+- [x] Objective: Implement basic grayscale theme and layout structure using CSS in `style.css`.
+- [x] Instruction 1: Set body background color to `#f0f0f0` and text color to `#333`.
+- [x] Instruction 2: Set default font to sans-serif for `body`.
+- [x] Instruction 3: Style `game-container` to center content horizontally using `margin: 0 auto;` and set `max-width: 800px;`.
+- [x] Instruction 4: Set `display: flex;` and `flex-direction: column;` for `body`.
+- [x] Instruction 5: Add basic margin to `date-display`, `input-area`, `feedback-area`, and `statistics-area` for vertical spacing (e.g., `margin: 20px 0;`).
+- [x] Testing 1: Verify grayscale color theme is applied in the browser.
+- [x] Testing 2: Check if content is centered and layout structure is visible.
 
 ### Prompt Set 1.5: Basic CSS - Style Day Buttons
-- [ ] Objective: Apply basic CSS styling to the day buttons.
-- [ ] Instruction 1: Style `.day-button`: set `display: inline-block;`, `padding: 10px 20px;`, `margin: 5px;`, `border-radius: 5px;`, `border: none;`, `background-color: #ddd;`, `color: #333;`, `cursor: pointer;`.
-- [ ] Testing 1: Verify day buttons are styled with the specified appearance in the browser.
-- [ ] Testing 2: Check button shape, color, spacing, and cursor on hover.
+- [x] Objective: Apply basic CSS styling to the day buttons.
+- [x] Instruction 1: Style `.day-button`: set `display: inline-block;`, `padding: 10px 20px;`, `margin: 5px;`, `border-radius: 5px;`, `border: none;`, `background-color: #ddd;`, `color: #333;`, `cursor: pointer;`.
+- [x] Testing 1: Verify day buttons are styled with the specified appearance in the browser.
+- [x] Testing 2: Check button shape, color, spacing, and cursor on hover.
 
 ## Chunk 2: Date Generation and Display
 

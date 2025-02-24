@@ -1,0 +1,20 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: sans-serif;
+}
+
+#date-display,
+#input-area,
+#feedback-area,
+#statistics-area {
+    margin: 20px 0;
+}
+
+.day-button {
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+}
