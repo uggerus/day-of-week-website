@@ -51,13 +51,13 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 ## Chunk 2: Date Generation and Display
 
 ### Prompt Set 2.1: Create `script.js` and Link to HTML
-- [ ] Objective: Create `script.js` and link it to `index.html`.
-- [ ] Instruction 1: Create `script.js` file.
-- [ ] Instruction 2: Open `index.html`.
-- [ ] Instruction 3: Add `<script src="script.js" defer></script>` tag in `<head>` below `<link>` for `style.css`.
-- [ ] Testing 1: Add `console.log("script.js linked successfully");` to `script.js`.
-- [ ] Testing 2: Reload `index.html` and check browser console for the message.
-- [ ] Testing 3: Remove `console.log` from `script.js` after verification.
+- [x] Objective: Create `script.js` and link it to `index.html`.
+- [x] Instruction 1: Create `script.js` file.
+- [x] Instruction 2: Open `index.html`.
+- [x] Instruction 3: Add `<script src="script.js" defer></script>` tag in `<head>` below `<link>` for `style.css`.
+- [x] Testing 1: Add `console.log("script.js linked successfully");` to `script.js`.
+- [x] Testing 2: Reload `index.html` and check browser console for the message.
+- [x] Testing 3: Remove `console.log` from `script.js` after verification.
 
 ### Prompt Set 2.2: Implement basic date generation function (placeholder)
 - [ ] Objective: Create a basic placeholder date generation function `generateDate()` in `script.js`.
