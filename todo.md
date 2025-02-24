@@ -60,13 +60,13 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 3: Remove `console.log` from `script.js` after verification.
 
 ### Prompt Set 2.2: Implement basic date generation function (placeholder)
-- [ ] Objective: Create a basic placeholder date generation function `generateDate()` in `script.js`.
-- [ ] Instruction 1: Add `function generateDate() { ... }` in `script.js`.
-- [ ] Instruction 2: Inside `generateDate()`, create a new `Date` object for today.
-- [ ] Instruction 3: Convert `Date` object to a simple date string (e.g., `toLocaleDateString()`).
-- [ ] Instruction 4: Return the date string from `generateDate()`.
-- [ ] Testing 1: Open browser console.
-- [ ] Testing 2: Call `generateDate()` in console and verify it returns a date string.
+- [x] Objective: Create a basic placeholder date generation function `generateDate()` in `script.js`.
+- [x] Instruction 1: Add `function generateDate() { ... }` in `script.js`.
+- [x] Instruction 2: Inside `generateDate()`, create a new `Date` object for today.
+- [x] Instruction 3: Convert `Date` object to a simple date string (e.g., `toLocaleDateString()`).
+- [x] Instruction 4: Return the date string from `generateDate()`.
+- [x] Testing 1: Open browser console.
+- [x] Testing 2: Call `generateDate()` in console and verify it returns a date string.
 
 ### Prompt Set 2.3: Display the fixed date in `date-display`
 - [ ] Objective: Display the date from `generateDate()` in the `date-display` div.
