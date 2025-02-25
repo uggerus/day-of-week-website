@@ -220,13 +220,13 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 4: Check statistics display after several guesses.
 
 ### Prompt Set 4.6: Update Statistics on Incorrect Answer (Percentage Correct)
-- [ ] Objective: Update `totalAttempts` on incorrect guess and percentage correct.
-- [ ] Instruction 1: Modify day button event listener in `script.js`.
-- [ ] Instruction 2: In `else` block (incorrect answer), increment `totalAttempts++;` and call `updateStatisticsDisplay()`.
-- [ ] Testing 1: Open `index.html` and browser.
-- [ ] Testing 2: Make correct and incorrect guesses.
-- [ ] Testing 3: Verify both correct and incorrect guesses increase `totalAttempts` and affect percentage correct.
-- [ ] Testing 4: Verify average time is not affected by incorrect guesses.
+- [x] Objective: Update `totalAttempts` on incorrect guess and percentage correct.
+- [x] Instruction 1: Modify day button event listener in `script.js`.
+- [x] Instruction 2: In `else` block (incorrect answer), increment `totalAttempts++;` and call `updateStatisticsDisplay()`.
+- [x] Testing 1: Open `index.html` and browser.
+- [x] Testing 2: Make correct and incorrect guesses.
+- [x] Testing 3: Verify both correct and incorrect guesses increase `totalAttempts` and affect percentage correct.
+- [x] Testing 4: Verify average time is not affected by incorrect guesses.
 
 ## Chunk 5: Keyboard Input and Reset Statistics
 
