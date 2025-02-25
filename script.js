@@ -44,16 +44,20 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         dateDisplayElement.textContent = generatedDate;
         startTime = performance.now(); // Start timer when date is displayed
-        endTime = null; // Reset endTime
-        timeTaken = null; // Reset timeTaken
+        endTime = null;
+        timeTaken = null;
     }
 
     const feedbackElement = document.getElementById('feedback-area');
     const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
+    // Add event listeners to day buttons
     const dayButtons = document.querySelectorAll('.day-button');
     dayButtons.forEach(button => {
         button.addEventListener('click', function() {
+            endTime = performance.now(); // Stop timer on button click (at the beginning of event handler)
+            timeTaken = (endTime - startTime) / 1000; // Calculate time taken in seconds
+
             const userGuessIndex = parseInt(this.dataset.dayIndex);
             const correctAnswerIndex = getCorrectDayIndex(dateDisplayElement.textContent);
 

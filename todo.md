@@ -175,14 +175,14 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 4: Reload multiple times and observe `startTime` changes.
 
 ### Prompt Set 4.2: Stop Timer and Calculate Time Taken on Button Click
-- [ ] Objective: Stop timer and calculate `timeTaken` on day button click in `script.js`.
-- [ ] Instruction 1: Modify day button event listener in `script.js`.
-- [ ] Instruction 2: At start of event listener, set `endTime = performance.now();`.
-- [ ] Instruction 3: Calculate `timeTaken = (endTime - startTime) / 1000;`.
-- [ ] Testing 1: Open `index.html` and browser console.
-- [ ] Testing 2: Reload page, click a day button.
-- [ ] Testing 3: Check `timeTaken` in console; verify it's a positive number.
-- [ ] Testing 4: Reload and test clicking buttons after varying times; check `timeTaken` reflects wait time.
+- [x] Objective: Stop timer and calculate `timeTaken` on day button click in `script.js`.
+- [x] Instruction 1: Modify day button event listener in `script.js`.
+- [x] Instruction 2: At start of event listener, set `endTime = performance.now();`.
+- [x] Instruction 3: Calculate `timeTaken = (endTime - startTime) / 1000;`.
+- [x] Testing 1: Open `index.html` and browser console.
+- [x] Testing 2: Reload page, click a day button.
+- [x] Testing 3: Check `timeTaken` in console; verify it's a positive number.
+- [x] Testing 4: Reload and test clicking buttons after varying times; check `timeTaken` reflects wait time.
 
 ### Prompt Set 4.3: Display Time Taken in Feedback Area
 - [ ] Objective: Display `timeTaken` in feedback area with "Correct"/"Incorrect" messages.
