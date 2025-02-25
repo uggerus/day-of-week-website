@@ -24,6 +24,11 @@ function generateDate() {
     }
 }
 
+function getCorrectDayIndex(dateString) {
+    const date = new Date(dateString); 
+    return date.getDay(); // 0 for Sunday, 1 for Monday, ..., 6 for Saturday
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const dateDisplayElement = document.getElementById('date-display');
     const generatedDate = generateDate();

@@ -130,13 +130,13 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 2: Click each day button and verify correct index is logged in console.
 
 ### Prompt Set 3.3: Calculate Correct Day of Week for Displayed Date
-- [ ] Objective: Implement `getCorrectDayIndex(dateString)` function in `script.js`.
-- [ ] Instruction 1: Add `function getCorrectDayIndex(dateString) { ... }` in `script.js`.
-- [ ] Instruction 2: Inside function, create `date = new Date(dateString)`.
-- [ ] Instruction 3: Return `date.getDay()` (0-6).
-- [ ] Testing 1: Open browser console.
-- [ ] Testing 2: Call `getCorrectDayIndex("October 26, 1985")`, `"January 1, 2024"`, etc., and verify correct day index is returned.
-- [ ] Testing 3: Use online day-of-week calculator to confirm results.
+- [x] Objective: Implement `getCorrectDayIndex(dateString)` function in `script.js`.
+- [x] Instruction 1: Add `function getCorrectDayIndex(dateString) { ... }` in `script.js`.
+- [x] Instruction 2: Inside function, create `date = new Date(dateString)`.
+- [x] Instruction 3: Return `date.getDay()` (0-6).
+- [x] Testing 1: Open browser console.
+- [x] Testing 2: Call `getCorrectDayIndex("October 26, 1985")`, `"January 1, 2024"`, etc., and verify correct day index is returned.
+- [x] Testing 3: Use online day-of-week calculator to confirm results.
 
 ### Prompt Set 3.4: Implement Feedback Logic (Correct/Incorrect)
 - [ ] Objective: Implement feedback logic ("Correct"/"Incorrect") based on button click.
