@@ -166,13 +166,13 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 ## Chunk 4: Timer and Basic Statistics
 
 ### Prompt Set 4.1: Initialize Timer Variables and Start Timer on Page Load
-- [ ] Objective: Initialize timer variables and start timer on page load in `script.js`.
-- [ ] Instruction 1: Declare global variables: `let startTime = null;`, `let endTime = null;`, `let timeTaken = null;`.
-- [ ] Instruction 2: In `DOMContentLoaded` listener, inside `else` block (date generated), set `startTime = performance.now();`, `endTime = null;`, `timeTaken = null;`.
-- [ ] Testing 1: Open `index.html` and browser console.
-- [ ] Testing 2: Reload page, check `startTime` in console; verify it's a number.
-- [ ] Testing 3: Check `endTime` and `timeTaken` are `null` initially.
-- [ ] Testing 4: Reload multiple times and observe `startTime` changes.
+- [x] Objective: Initialize timer variables and start timer on page load in `script.js`.
+- [x] Instruction 1: Declare global variables: `let startTime = null;`, `let endTime = null;`, `let timeTaken = null;`.
+- [x] Instruction 2: In `DOMContentLoaded` listener, inside `else` block (date generated), set `startTime = performance.now();`, `endTime = null;`, `timeTaken = null;`.
+- [x] Testing 1: Open `index.html` and browser console.
+- [x] Testing 2: Reload page, check `startTime` in console; verify it's a number.
+- [x] Testing 3: Check `endTime` and `timeTaken` are `null` initially.
+- [x] Testing 4: Reload multiple times and observe `startTime` changes.
 
 ### Prompt Set 4.2: Stop Timer and Calculate Time Taken on Button Click
 - [ ] Objective: Stop timer and calculate `timeTaken` on day button click in `script.js`.

@@ -1,3 +1,8 @@
+
+let startTime = null;
+let endTime = null;
+let timeTaken = null;
+
 function generateDate() {
     try {
         // Base date: October 15, 1582 (Start of Gregorian calendar)
@@ -38,12 +43,14 @@ document.addEventListener('DOMContentLoaded', function() {
         dateDisplayElement.textContent = "Unable to generate date";
     } else {
         dateDisplayElement.textContent = generatedDate;
+        startTime = performance.now(); // Start timer when date is displayed
+        endTime = null; // Reset endTime
+        timeTaken = null; // Reset timeTaken
     }
 
-    const feedbackElement = document.getElementById('feedback-area'); // Get feedback element reference once
-    const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; // Day names array
+    const feedbackElement = document.getElementById('feedback-area');
+    const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-    // Add event listeners to day buttons
     const dayButtons = document.querySelectorAll('.day-button');
     dayButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -53,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (userGuessIndex === correctAnswerIndex) {
                 feedbackElement.textContent = "Correct";
             } else {
-                const correctDayName = dayNames[correctAnswerIndex]; // Get correct day name
+                const correctDayName = dayNames[correctAnswerIndex];
                 feedbackElement.textContent = "Incorrect. Correct day: " + correctDayName;
             }
         });
