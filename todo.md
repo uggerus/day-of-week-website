@@ -139,18 +139,18 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 3: Use online day-of-week calculator to confirm results.
 
 ### Prompt Set 3.4: Implement Feedback Logic (Correct/Incorrect)
-- [ ] Objective: Implement feedback logic ("Correct"/"Incorrect") based on button click.
-- [ ] Instruction 1: Modify day button event listener in `script.js`.
-- [ ] Instruction 2: Inside listener, get `userGuessIndex = parseInt(this.dataset.dayIndex)`.
-- [ ] Instruction 3: Get displayed date string from `dateDisplayElement.textContent`.
-- [ ] Instruction 4: Get `correctAnswerIndex = getCorrectDayIndex(...)`.
-- [ ] Instruction 5: Get `feedbackElement = document.getElementById('feedback-area')`.
-- [ ] Instruction 6: If `userGuessIndex === correctAnswerIndex`, `feedbackElement.textContent = "Correct";`.
-- [ ] Instruction 7: Else, `feedbackElement.textContent = "Incorrect";`.
-- [ ] Testing 1: Open `index.html` and browser.
-- [ ] Testing 2: For displayed date, click correct and incorrect day buttons.
-- [ ] Testing 3: Verify "Feedback Area" shows "Correct" or "Incorrect" as expected.
-- [ ] Testing 4: Test with different dates and guesses to ensure logic is reliable.
+- [x] Objective: Implement feedback logic ("Correct"/"Incorrect") based on button click.
+- [x] Instruction 1: Modify day button event listener in `script.js`.
+- [x] Instruction 2: Inside listener, get `userGuessIndex = parseInt(this.dataset.dayIndex)`.
+- [x] Instruction 3: Get displayed date string from `dateDisplayElement.textContent`.
+- [x] Instruction 4: Get `correctAnswerIndex = getCorrectDayIndex(...)`.
+- [x] Instruction 5: Get `feedbackElement = document.getElementById('feedback-area')`.
+- [x] Instruction 6: If `userGuessIndex === correctAnswerIndex`, `feedbackElement.textContent = "Correct";`.
+- [x] Instruction 7: Else, `feedbackElement.textContent = "Incorrect";`.
+- [x] Testing 1: Open `index.html` and browser.
+- [x] Testing 2: For displayed date, click correct and incorrect day buttons.
+- [x] Testing 3: Verify "Feedback Area" shows "Correct" or "Incorrect" as expected.
+- [x] Testing 4: Test with different dates and guesses to ensure logic is reliable.
 
 ### Prompt Set 3.5: Display Correct Day on Incorrect Guess
 - [ ] Objective: Display correct day name in feedback area for incorrect guesses.

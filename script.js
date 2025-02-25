@@ -29,22 +29,30 @@ function getCorrectDayIndex(dateString) {
     return date.getDay(); // 0 for Sunday, 1 for Monday, ..., 6 for Saturday
 }
 
+
 document.addEventListener('DOMContentLoaded', function() {
     const dateDisplayElement = document.getElementById('date-display');
     const generatedDate = generateDate();
-    
+
     if (generatedDate === null) {
         dateDisplayElement.textContent = "Unable to generate date";
     } else {
         dateDisplayElement.textContent = generatedDate;
     }
 
+    const feedbackElement = document.getElementById('feedback-area'); 
 
     const dayButtons = document.querySelectorAll('.day-button');
     dayButtons.forEach(button => {
         button.addEventListener('click', function() {
-            const dayIndex = this.dataset.dayIndex;
-            console.log("Day button clicked with index: " + dayIndex);
+            const userGuessIndex = parseInt(this.dataset.dayIndex);
+            const correctAnswerIndex = getCorrectDayIndex(dateDisplayElement.textContent);
+
+            if (userGuessIndex === correctAnswerIndex) {
+                feedbackElement.textContent = "Correct";
+            } else {
+                feedbackElement.textContent = "Incorrect";
+            }
         });
     });
 });
