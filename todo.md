@@ -207,17 +207,17 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 4: Check in console if statistics variables are initialized to 0.
 
 ### Prompt Set 4.5: Update Statistics on Correct Answer
-- [ ] Objective: Update statistics on correct guess and refresh display.
-- [ ] Instruction 1: Modify day button event listener in `script.js`.
-- [ ] Instruction 2: In `if` block (correct answer), increment `totalAttempts`, `correctAnswers`, `sumOfCorrectTimes`, and call `updateStatisticsDisplay()`.
-- [ ] Instruction 3: Modify `updateStatisticsDisplay()` to calculate and display percentage correct and average time.
-- [ ] Instruction 4: Calculate `percentage = (totalAttempts === 0) ? 0 : (correctAnswers / totalAttempts) * 100;`, format to 2 decimal places.
-- [ ] Instruction 5: Calculate `averageTime = (correctAnswers === 0) ? "N/A" : (sumOfCorrectTimes / correctAnswers).toFixed(4);`.
-- [ ] Instruction 6: Update `percentageCorrectElement.textContent` and `averageTimeElement.textContent`.
-- [ ] Testing 1: Open `index.html` and browser.
-- [ ] Testing 2: Make correct and incorrect guesses and verify percentage correct updates correctly.
-- [ ] Testing 3: Verify average time updates only after correct guesses, and starts as "N/A".
-- [ ] Testing 4: Check statistics display after several guesses.
+- [x] Objective: Update statistics on correct guess and refresh display.
+- [x] Instruction 1: Modify day button event listener in `script.js`.
+- [x] Instruction 2: In `if` block (correct answer), increment `totalAttempts`, `correctAnswers`, `sumOfCorrectTimes`, and call `updateStatisticsDisplay()`.
+- [x] Instruction 3: Modify `updateStatisticsDisplay()` to calculate and display percentage correct and average time.
+- [x] Instruction 4: Calculate `percentage = (totalAttempts === 0) ? 0 : (correctAnswers / totalAttempts) * 100;`, format to 2 decimal places.
+- [x] Instruction 5: Calculate `averageTime = (correctAnswers === 0) ? "N/A" : (sumOfCorrectTimes / correctAnswers).toFixed(4);`.
+- [x] Instruction 6: Update `percentageCorrectElement.textContent` and `averageTimeElement.textContent`.
+- [x] Testing 1: Open `index.html` and browser.
+- [x] Testing 2: Make correct and incorrect guesses and verify percentage correct updates correctly.
+- [x] Testing 3: Verify average time updates only after correct guesses, and starts as "N/A".
+- [x] Testing 4: Check statistics display after several guesses.
 
 ### Prompt Set 4.6: Update Statistics on Incorrect Answer (Percentage Correct)
 - [ ] Objective: Update `totalAttempts` on incorrect guess and percentage correct.

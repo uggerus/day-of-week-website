@@ -42,8 +42,13 @@ function updateStatisticsDisplay() {
     const percentageCorrectElement = document.getElementById('percentage-correct');
     const averageTimeElement = document.getElementById('average-time');
 
-    percentageCorrectElement.textContent = "Correct: 0.00%"; // Initial display
-    averageTimeElement.textContent = "Avg. Time: N/A";      // Initial display
+    const percentage = (totalAttempts === 0) ? 0 : (correctAnswers / totalAttempts) * 100;
+    const formattedPercentage = percentage.toFixed(2);
+    const averageTime = (correctAnswers === 0) ? "N/A" : (sumOfCorrectTimes / correctAnswers).toFixed(4);
+
+
+    percentageCorrectElement.textContent = "Correct: " + formattedPercentage + "%";
+    averageTimeElement.textContent = "Avg. Time: " + averageTime;
 }
 
 
@@ -78,9 +83,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (userGuessIndex === correctAnswerIndex) {
                 feedbackElement.textContent = "Correct. Time: " + formattedTime + " seconds";
+                totalAttempts++; // Increment total attempts
+                correctAnswers++; // Increment correct answers
+                sumOfCorrectTimes += timeTaken; // Add time to sum of correct times
+                updateStatisticsDisplay(); // Update statistics display
             } else {
                 const correctDayName = dayNames[correctAnswerIndex];
                 feedbackElement.textContent = "Incorrect. Correct day: " + correctDayName + ". Time: " + formattedTime + " seconds";
+                totalAttempts++; // Increment total attempts even for incorrect answers
+                updateStatisticsDisplay(); // Update percentage correct (average time not affected)
             }
         });
     });
