@@ -153,15 +153,15 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 4: Test with different dates and guesses to ensure logic is reliable.
 
 ### Prompt Set 3.5: Display Correct Day on Incorrect Guess
-- [ ] Objective: Display correct day name in feedback area for incorrect guesses.
-- [ ] Instruction 1: Modify day button event listener in `script.js`.
-- [ ] Instruction 2: In `else` block (incorrect guess), get `correctAnswerIndex`.
-- [ ] Instruction 3: Create `dayNames = ["Sunday", ..., "Saturday"]` array.
-- [ ] Instruction 4: Get `correctDayName = dayNames[correctAnswerIndex]`.
-- [ ] Instruction 5: Set `feedbackElement.textContent = "Incorrect. Correct day: " + correctDayName;`.
-- [ ] Testing 1: Open `index.html` and browser.
-- [ ] Testing 2: Make incorrect guesses and verify feedback shows "Incorrect. Correct day: [Day Name]".
-- [ ] Testing 3: Verify correct guesses still show only "Correct".
+- [x] Objective: Display correct day name in feedback area for incorrect guesses.
+- [x] Instruction 1: Modify day button event listener in `script.js`.
+- [x] Instruction 2: In `else` block (incorrect guess), get `correctAnswerIndex`.
+- [x] Instruction 3: Create `dayNames = ["Sunday", ..., "Saturday"]` array.
+- [x] Instruction 4: Get `correctDayName = dayNames[correctAnswerIndex]`.
+- [x] Instruction 5: Set `feedbackElement.textContent = "Incorrect. Correct day: " + correctDayName;`.
+- [x] Testing 1: Open `index.html` and browser.
+- [x] Testing 2: Make incorrect guesses and verify feedback shows "Incorrect. Correct day: [Day Name]".
+- [x] Testing 3: Verify correct guesses still show only "Correct".
 
 ## Chunk 4: Timer and Basic Statistics
 

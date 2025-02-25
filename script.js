@@ -40,8 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
         dateDisplayElement.textContent = generatedDate;
     }
 
-    const feedbackElement = document.getElementById('feedback-area'); 
+    const feedbackElement = document.getElementById('feedback-area'); // Get feedback element reference once
+    const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; // Day names array
 
+    // Add event listeners to day buttons
     const dayButtons = document.querySelectorAll('.day-button');
     dayButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -51,10 +53,10 @@ document.addEventListener('DOMContentLoaded', function() {
             if (userGuessIndex === correctAnswerIndex) {
                 feedbackElement.textContent = "Correct";
             } else {
-                feedbackElement.textContent = "Incorrect";
+                const correctDayName = dayNames[correctAnswerIndex]; // Get correct day name
+                feedbackElement.textContent = "Incorrect. Correct day: " + correctDayName;
             }
         });
     });
 });
-
 
