@@ -3,6 +3,10 @@ let startTime = null;
 let endTime = null;
 let timeTaken = null;
 
+let totalAttempts = 0;
+let correctAnswers = 0;
+let sumOfCorrectTimes = 0;
+
 function generateDate() {
     try {
         // Base date: October 15, 1582 (Start of Gregorian calendar)
@@ -34,6 +38,14 @@ function getCorrectDayIndex(dateString) {
     return date.getDay(); // 0 for Sunday, 1 for Monday, ..., 6 for Saturday
 }
 
+function updateStatisticsDisplay() {
+    const percentageCorrectElement = document.getElementById('percentage-correct');
+    const averageTimeElement = document.getElementById('average-time');
+
+    percentageCorrectElement.textContent = "Correct: 0.00%"; // Initial display
+    averageTimeElement.textContent = "Avg. Time: N/A";      // Initial display
+}
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const dateDisplayElement = document.getElementById('date-display');
@@ -51,6 +63,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const feedbackElement = document.getElementById('feedback-area');
     const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
+    updateStatisticsDisplay(); // Call to set initial display
+
     // Add event listeners to day buttons
     const dayButtons = document.querySelectorAll('.day-button');
     dayButtons.forEach(button => {
@@ -60,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const userGuessIndex = parseInt(this.dataset.dayIndex);
             const correctAnswerIndex = getCorrectDayIndex(dateDisplayElement.textContent);
-            const formattedTime = timeTaken.toFixed(4); // Format time to 4 decimal places
+            const formattedTime = timeTaken.toFixed(4);
 
             if (userGuessIndex === correctAnswerIndex) {
                 feedbackElement.textContent = "Correct. Time: " + formattedTime + " seconds";
@@ -71,4 +85,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-

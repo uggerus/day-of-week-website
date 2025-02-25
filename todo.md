@@ -195,16 +195,16 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 3: Check time displayed seems reasonable.
 
 ### Prompt Set 4.4: Initialize Statistics Variables and Display Area
-- [ ] Objective: Initialize statistics variables and set up display area in `index.html` and `script.js`.
-- [ ] Instruction 1: Declare global statistics variables in `script.js`: `totalAttempts = 0;`, `correctAnswers = 0;`, `sumOfCorrectTimes = 0;`.
-- [ ] Instruction 2: In `index.html`, in `statistics-area`, add `<p id="percentage-correct">Correct: 0.00%</p>` and `<p id="average-time">Avg. Time: N/A</p>`.
-- [ ] Instruction 3: In `script.js`, in `DOMContentLoaded`, get references to `percentageCorrectElement` and `averageTimeElement`.
-- [ ] Instruction 4: Create `updateStatisticsDisplay()` function to set initial text content for percentage and avg time elements.
-- [ ] Instruction 5: Call `updateStatisticsDisplay()` in `DOMContentLoaded` after getting element references.
-- [ ] Testing 1: Open `index.html` and verify "Statistics Area" is displayed below feedback.
-- [ ] Testing 2: Verify initial statistics display "Correct: 0.00%" and "Avg. Time: N/A".
-- [ ] Testing 3: Inspect "Statistics Area" in developer tools to confirm HTML structure.
-- [ ] Testing 4: Check in console if statistics variables are initialized to 0.
+- [x] Objective: Initialize statistics variables and set up display area in `index.html` and `script.js`.
+- [x] Instruction 1: Declare global statistics variables in `script.js`: `totalAttempts = 0;`, `correctAnswers = 0;`, `sumOfCorrectTimes = 0;`.
+- [x] Instruction 2: In `index.html`, in `statistics-area`, add `<p id="percentage-correct">Correct: 0.00%</p>` and `<p id="average-time">Avg. Time: N/A</p>`.
+- [x] Instruction 3: In `script.js`, in `DOMContentLoaded`, get references to `percentageCorrectElement` and `averageTimeElement`.
+- [x] Instruction 4: Create `updateStatisticsDisplay()` function to set initial text content for percentage and avg time elements.
+- [x] Instruction 5: Call `updateStatisticsDisplay()` in `DOMContentLoaded` after getting element references.
+- [x] Testing 1: Open `index.html` and verify "Statistics Area" is displayed below feedback.
+- [x] Testing 2: Verify initial statistics display "Correct: 0.00%" and "Avg. Time: N/A".
+- [x] Testing 3: Inspect "Statistics Area" in developer tools to confirm HTML structure.
+- [x] Testing 4: Check in console if statistics variables are initialized to 0.
 
 ### Prompt Set 4.5: Update Statistics on Correct Answer
 - [ ] Objective: Update statistics on correct guess and refresh display.
