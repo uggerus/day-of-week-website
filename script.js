@@ -55,17 +55,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const dayButtons = document.querySelectorAll('.day-button');
     dayButtons.forEach(button => {
         button.addEventListener('click', function() {
-            endTime = performance.now(); // Stop timer on button click (at the beginning of event handler)
-            timeTaken = (endTime - startTime) / 1000; // Calculate time taken in seconds
+            endTime = performance.now(); // Stop timer on button click
+            timeTaken = (endTime - startTime) / 1000; // Calculate time taken
 
             const userGuessIndex = parseInt(this.dataset.dayIndex);
             const correctAnswerIndex = getCorrectDayIndex(dateDisplayElement.textContent);
+            const formattedTime = timeTaken.toFixed(4); // Format time to 4 decimal places
 
             if (userGuessIndex === correctAnswerIndex) {
-                feedbackElement.textContent = "Correct";
+                feedbackElement.textContent = "Correct. Time: " + formattedTime + " seconds";
             } else {
                 const correctDayName = dayNames[correctAnswerIndex];
-                feedbackElement.textContent = "Incorrect. Correct day: " + correctDayName;
+                feedbackElement.textContent = "Incorrect. Correct day: " + correctDayName + ". Time: " + formattedTime + " seconds";
             }
         });
     });

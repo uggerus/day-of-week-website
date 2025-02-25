@@ -185,14 +185,14 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 4: Reload and test clicking buttons after varying times; check `timeTaken` reflects wait time.
 
 ### Prompt Set 4.3: Display Time Taken in Feedback Area
-- [ ] Objective: Display `timeTaken` in feedback area with "Correct"/"Incorrect" messages.
-- [ ] Instruction 1: Modify day button event listener in `script.js`.
-- [ ] Instruction 2: Format `timeTaken` to 4 decimal places using `toFixed(4)`.
-- [ ] Instruction 3: For "Correct" feedback: `feedbackElement.textContent = "Correct. Time: " + formattedTime + " seconds";`.
-- [ ] Instruction 4: For "Incorrect" feedback: `feedbackElement.textContent = "Incorrect. Correct day: ... Time: " + formattedTime + " seconds";`.
-- [ ] Testing 1: Open `index.html` and browser.
-- [ ] Testing 2: Make correct and incorrect guesses, verify feedback shows time taken (4 decimal places).
-- [ ] Testing 3: Check time displayed seems reasonable.
+- [x] Objective: Display `timeTaken` in feedback area with "Correct"/"Incorrect" messages.
+- [x] Instruction 1: Modify day button event listener in `script.js`.
+- [x] Instruction 2: Format `timeTaken` to 4 decimal places using `toFixed(4)`.
+- [x] Instruction 3: For "Correct" feedback: `feedbackElement.textContent = "Correct. Time: " + formattedTime + " seconds";`.
+- [x] Instruction 4: For "Incorrect" feedback: `feedbackElement.textContent = "Incorrect. Correct day: ... Time: " + formattedTime + " seconds";`.
+- [x] Testing 1: Open `index.html` and browser.
+- [x] Testing 2: Make correct and incorrect guesses, verify feedback shows time taken (4 decimal places).
+- [x] Testing 3: Check time displayed seems reasonable.
 
 ### Prompt Set 4.4: Initialize Statistics Variables and Display Area
 - [ ] Objective: Initialize statistics variables and set up display area in `index.html` and `script.js`.
