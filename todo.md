@@ -112,11 +112,11 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 ## Chunk 3: User Input and Feedback (Buttons)
 
 ### Prompt Set 3.1: Add `data-day-index` to Day Buttons
-- [ ] Objective: Add `data-day-index` attribute to day buttons in `index.html` (0-6, Sunday-Saturday).
-- [ ] Instruction 1: Open `index.html`.
-- [ ] Instruction 2: Add `data-day-index="0"` to "Sunday" button, `"1"` to "Monday", ..., `"6"` to "Saturday".
-- [ ] Testing 1: Open `index.html` and inspect each day button in developer tools.
-- [ ] Testing 2: Verify each button has `data-day-index` attribute with correct value (0-6).
+- [x] Objective: Add `data-day-index` attribute to day buttons in `index.html` (0-6, Sunday-Saturday).
+- [x] Instruction 1: Open `index.html`.
+- [x] Instruction 2: Add `data-day-index="0"` to "Sunday" button, `"1"` to "Monday", ..., `"6"` to "Saturday".
+- [x] Testing 1: Open `index.html` and inspect each day button in developer tools.
+- [x] Testing 2: Verify each button has `data-day-index` attribute with correct value (0-6).
 
 ### Prompt Set 3.2: Add Event Listeners to Day Buttons
 - [ ] Objective: Add event listeners to day buttons to `console.log` button index on click.
