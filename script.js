@@ -33,6 +33,15 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         dateDisplayElement.textContent = generatedDate;
     }
+
+
+    const dayButtons = document.querySelectorAll('.day-button');
+    dayButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const dayIndex = this.dataset.dayIndex;
+            console.log("Day button clicked with index: " + dayIndex);
+        });
+    });
 });
 
 

@@ -119,15 +119,15 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 2: Verify each button has `data-day-index` attribute with correct value (0-6).
 
 ### Prompt Set 3.2: Add Event Listeners to Day Buttons
-- [ ] Objective: Add event listeners to day buttons to `console.log` button index on click.
-- [ ] Instruction 1: Open `script.js`.
-- [ ] Instruction 2: In `DOMContentLoaded` listener, select all `.day-button` using `document.querySelectorAll()`.
-- [ ] Instruction 3: Iterate through buttons using `forEach`.
-- [ ] Instruction 4: For each button, add `click` event listener.
-- [ ] Instruction 5: Inside listener, get `dayIndex = this.dataset.dayIndex`.
-- [ ] Instruction 6: `console.log("Day button clicked with index: " + dayIndex)`.
-- [ ] Testing 1: Open `index.html` in browser and developer console.
-- [ ] Testing 2: Click each day button and verify correct index is logged in console.
+- [x] Objective: Add event listeners to day buttons to `console.log` button index on click.
+- [x] Instruction 1: Open `script.js`.
+- [x] Instruction 2: In `DOMContentLoaded` listener, select all `.day-button` using `document.querySelectorAll()`.
+- [x] Instruction 3: Iterate through buttons using `forEach`.
+- [x] Instruction 4: For each button, add `click` event listener.
+- [x] Instruction 5: Inside listener, get `dayIndex = this.dataset.dayIndex`.
+- [x] Instruction 6: `console.log("Day button clicked with index: " + dayIndex)`.
+- [x] Testing 1: Open `index.html` in browser and developer console.
+- [x] Testing 2: Click each day button and verify correct index is logged in console.
 
 ### Prompt Set 3.3: Calculate Correct Day of Week for Displayed Date
 - [ ] Objective: Implement `getCorrectDayIndex(dateString)` function in `script.js`.
