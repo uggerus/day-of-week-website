@@ -265,15 +265,15 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 ## Chunk 6: "How to Play" Popup and Keyboard Navigation
 
 ### Prompt Set 6.1: Create Popup HTML Structure and Basic Styling
-- [ ] Objective: Create "How to Play" popup HTML structure and basic CSS.
-- [ ] Instruction 1: Open `index.html`.
-- [ ] Instruction 2: In `popup-container`, add `<div id="how-to-play-popup">`.
-- [ ] Instruction 3: Inside `how-to-play-popup`, add `<div class="popup-header"><h3>How to Play</h3><button id="popup-close-button">X</button></div>`.
-- [ ] Instruction 4: Inside `how-to-play-popup`, add `<div class="popup-content"><p>...</p><p>...</p></div>` with game rules and input info.
-- [ ] Instruction 5: Open `style.css` and add CSS rules for `#popup-container`, `#how-to-play-popup`, `.popup-header`, `#popup-close-button` (basic structure and visibility styles).
-- [ ] Testing 1: Open `index.html` and verify "How to Play" popup is displayed (initially).
-- [ ] Testing 2: Verify popup contains header, close button, and content paragraphs.
-- [ ] Testing 3: Inspect popup elements in developer tools to confirm HTML and CSS structure.
+- [x] Objective: Create "How to Play" popup HTML structure and basic CSS.
+- [x] Instruction 1: Open `index.html`.
+- [x] Instruction 2: In `popup-container`, add `<div id="how-to-play-popup">`.
+- [x] Instruction 3: Inside `how-to-play-popup`, add `<div class="popup-header"><h3>How to Play</h3><button id="popup-close-button">X</button></div>`.
+- [x] Instruction 4: Inside `how-to-play-popup`, add `<div class="popup-content"><p>...</p><p>...</p></div>` with game rules and input info.
+- [x] Instruction 5: Open `style.css` and add CSS rules for `#popup-container`, `#how-to-play-popup`, `.popup-header`, `#popup-close-button` (basic structure and visibility styles).
+- [x] Testing 1: Open `index.html` and verify "How to Play" popup is displayed (initially).
+- [x] Testing 2: Verify popup contains header, close button, and content paragraphs.
+- [x] Testing 3: Inspect popup elements in developer tools to confirm HTML and CSS structure.
 
 ### Prompt Set 6.2: Implement Popup Show/Hide Logic (JavaScript - Close Button)
 - [ ] Objective: Implement popup hide logic with close button in `script.js`.

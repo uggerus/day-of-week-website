@@ -18,3 +18,39 @@ body {
     padding: 10px 20px;
     margin: 5px;
 }
+
+#popup-container {
+    display: block; /* Initially visible for styling - will be changed to 'none' later */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    position: fixed; /* Overlay the whole page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10; /* Ensure it's on top of other content */
+}
+
+#how-to-play-popup {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 10% auto; /* Center vertically and horizontally */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#popup-close-button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
