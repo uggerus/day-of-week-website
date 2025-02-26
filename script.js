@@ -83,16 +83,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (userGuessIndex === correctAnswerIndex) {
                 feedbackElement.textContent = "Correct. Time: " + formattedTime + " seconds";
-                totalAttempts++; // Increment total attempts
-                correctAnswers++; // Increment correct answers
-                sumOfCorrectTimes += timeTaken; // Add time to sum of correct times
-                updateStatisticsDisplay(); // Update statistics display
+                totalAttempts++;
+                correctAnswers++;
+                sumOfCorrectTimes += timeTaken;
+                updateStatisticsDisplay();
             } else {
                 const correctDayName = dayNames[correctAnswerIndex];
                 feedbackElement.textContent = "Incorrect. Correct day: " + correctDayName + ". Time: " + formattedTime + " seconds";
-                totalAttempts++; // Increment total attempts even for incorrect answers
-                updateStatisticsDisplay(); // Update percentage correct (average time not affected)
+                totalAttempts++;
+                updateStatisticsDisplay();
             }
         });
+    });
+
+    // Add keyboard input handling
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        if (key >= '0' && key <= '6') { // Check if key is 0-6
+            const keyIndex = parseInt(key);
+            dayButtons[keyIndex].click(); // Simulate click on corresponding day button
+        }
     });
 });

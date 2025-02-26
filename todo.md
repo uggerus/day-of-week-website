@@ -231,17 +231,17 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 ## Chunk 5: Keyboard Input and Reset Statistics
 
 ### Prompt Set 5.1: Implement Keyboard Input Handling (Numbers 0-6)
-- [ ] Objective: Implement keyboard input (0-6) for day button selection.
-- [ ] Instruction 1: In `script.js`, in `DOMContentLoaded` listener, add `document.addEventListener('keydown', function(event) { ... });`.
-- [ ] Instruction 2: Inside listener, get `key = event.key`.
-- [ ] Instruction 3: Check if `key >= '0' && key <= '6'`.
-- [ ] Instruction 4: If yes, `keyIndex = parseInt(key)`.
-- [ ] Instruction 5: Select `dayButtons = document.querySelectorAll('.day-button')`.
-- [ ] Instruction 6: Simulate click: `dayButtons[keyIndex].click();`.
-- [ ] Testing 1: Open `index.html` and browser.
-- [ ] Testing 2: Press number keys 0-6 and verify it's equivalent to clicking day buttons.
-- [ ] Testing 3: Verify feedback and statistics update with keyboard input.
-- [ ] Testing 4: Press other keys and verify no effect.
+- [x] Objective: Implement keyboard input (0-6) for day button selection.
+- [x] Instruction 1: In `script.js`, in `DOMContentLoaded` listener, add `document.addEventListener('keydown', function(event) { ... });`.
+- [x] Instruction 2: Inside listener, get `key = event.key`.
+- [x] Instruction 3: Check if `key >= '0' && key <= '6'`.
+- [x] Instruction 4: If yes, `keyIndex = parseInt(key)`.
+- [x] Instruction 5: Select `dayButtons = document.querySelectorAll('.day-button')`.
+- [x] Instruction 6: Simulate click: `dayButtons[keyIndex].click();`.
+- [x] Testing 1: Open `index.html` and browser.
+- [x] Testing 2: Press number keys 0-6 and verify it's equivalent to clicking day buttons.
+- [x] Testing 3: Verify feedback and statistics update with keyboard input.
+- [x] Testing 4: Press other keys and verify no effect.
 
 ### Prompt Set 5.2: Add "Reset Statistics" Button to HTML
 - [ ] Objective: Add "Reset Statistics" button to `statistics-area` in `index.html`.
