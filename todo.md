@@ -244,11 +244,11 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [x] Testing 4: Press other keys and verify no effect.
 
 ### Prompt Set 5.2: Add "Reset Statistics" Button to HTML
-- [ ] Objective: Add "Reset Statistics" button to `statistics-area` in `index.html`.
-- [ ] Instruction 1: Open `index.html`.
-- [ ] Instruction 2: In `statistics-area`, add `<button id="reset-button">Reset Statistics</button>`.
-- [ ] Testing 1: Open `index.html` and verify "Reset Statistics" button is visible in "Statistics Area".
-- [ ] Testing 2: Inspect button element to confirm `id` and `textContent`.
+- [X] Objective: Add "Reset Statistics" button to `statistics-area` in `index.html`.
+- [X] Instruction 1: Open `index.html`.
+- [X] Instruction 2: In `statistics-area`, add `<button id="reset-button">Reset Statistics</button>`.
+- [X] Testing 1: Open `index.html` and verify "Reset Statistics" button is visible in "Statistics Area".
+- [X] Testing 2: Inspect button element to confirm `id` and `textContent`.
 
 ### Prompt Set 5.3: Implement Reset Statistics Functionality (JavaScript)
 - [ ] Objective: Implement reset functionality when "Reset Statistics" button is clicked.
