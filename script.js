@@ -104,4 +104,13 @@ document.addEventListener('DOMContentLoaded', function() {
             dayButtons[keyIndex].click(); // Simulate click on corresponding day button
         }
     });
+
+    // Add reset statistics functionality
+    const resetButton = document.getElementById('reset-button');
+    resetButton.addEventListener('click', function() {
+        totalAttempts = 0;
+        correctAnswers = 0;
+        sumOfCorrectTimes = 0;
+        updateStatisticsDisplay(); // Update display to reset values
+    });
 });

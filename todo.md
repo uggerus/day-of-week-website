@@ -251,16 +251,16 @@ This `todo.md` file provides a checklist of all the steps involved in building t
 - [X] Testing 2: Inspect button element to confirm `id` and `textContent`.
 
 ### Prompt Set 5.3: Implement Reset Statistics Functionality (JavaScript)
-- [ ] Objective: Implement reset functionality when "Reset Statistics" button is clicked.
-- [ ] Instruction 1: In `script.js`, in `DOMContentLoaded` listener, get `resetButton = document.getElementById('reset-button')`.
-- [ ] Instruction 2: Add `click` event listener to `resetButton`.
-- [ ] Instruction 3: Inside listener, reset statistics variables: `totalAttempts = 0;`, `correctAnswers = 0;`, `sumOfCorrectTimes = 0;`.
-- [ ] Instruction 4: Call `updateStatisticsDisplay()`.
-- [ ] Testing 1: Open `index.html` and browser. Play game and accumulate statistics.
-- [ ] Testing 2: Click "Reset Statistics" button.
-- [ ] Testing 3: Verify "Correct %" and "Avg. Time" reset to initial values in UI.
-- [ ] Testing 4: Check in console if statistics variables are reset to 0.
-- [ ] Testing 5: Play game again after reset and verify statistics start from zero.
+- [x] Objective: Implement reset functionality when "Reset Statistics" button is clicked.
+- [x] Instruction 1: In `script.js`, in `DOMContentLoaded` listener, get `resetButton = document.getElementById('reset-button')`.
+- [x] Instruction 2: Add `click` event listener to `resetButton`.
+- [x] Instruction 3: Inside listener, reset statistics variables: `totalAttempts = 0;`, `correctAnswers = 0;`, `sumOfCorrectTimes = 0;`.
+- [x] Instruction 4: Call `updateStatisticsDisplay()`.
+- [x] Testing 1: Open `index.html` and browser. Play game and accumulate statistics.
+- [x] Testing 2: Click "Reset Statistics" button.
+- [x] Testing 3: Verify "Correct %" and "Avg. Time" reset to initial values in UI.
+- [x] Testing 4: Check in console if statistics variables are reset to 0.
+- [x] Testing 5: Play game again after reset and verify statistics start from zero.
 
 ## Chunk 6: "How to Play" Popup and Keyboard Navigation
 
